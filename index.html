@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, itial-scale=1.0">
+    <lk rel="stylesheet" href="css/style.css">
+        <title>AAZAD KALAM</title>
+        <!-- mdb css link -->
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+        <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" />
+        <style>
+            .container a {
+                width: 300px;
+            }
+
+            .carousel-item img {
+                height: 90vh;
+            }
+        </style>
+</head>
+
+<body>
+    <div id="sec1">
+        <!-- Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid justify-content-between">
+                <!-- Left elements -->
+                <div class="d-flex">
+                    <!-- Brand -->
+                    <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+                        <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="20"
+                            alt="MDB Logo" loading="lazy" style="margin-top: 2px;" />
+                    </a>
+
+                    <!-- Search form -->
+                    <form class="input-group w-auto my-auto d-none d-sm-flex">
+                        <input autocomplete="off" type="search" class="form-control rounded" placeholder="Search"
+                            style="min-width: 125px;" />
+                        <span class="input-group-text border-0 d-none d-lg-flex"><i class="fas fa-search"></i></span>
+                    </form>
+                </div>
+                <!-- Left elements -->
+
+                <!-- Center elements -->
+                <ul class="navbar-nav flex-row d-none d-md-flex">
+                    <li class="nav-item me-3 me-lg-1 active">
+                        <a class="nav-link" href="#">
+                            <span><i class="fas fa-home fa-lg"></i></span>
+                            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link" href="#">
+                            <span><i class="fas fa-flag fa-lg"></i></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link" href="#">
+                            <span><i class="fas fa-video fa-lg"></i></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link" href="#">
+                            <span><i class="fas fa-shopping-bag fa-lg"></i></span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link" href="#">
+                            <span><i class="fas fa-users fa-lg"></i></span>
+                            <span class="badge rounded-pill badge-notification bg-danger">2</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Center elements -->
+
+                <!-- Right elements -->
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link d-sm-flex align-items-sm-center" href="#">
+                            <img src="https://t4.ftcdn.net/jpg/01/01/64/35/500_F_101643531_7pXE5KHJSXMAGqwlOFPmV19S1S0k0axy.jpg"
+                                class="rounded-circle" height="22" alt="Black and White Portrait of a Man"
+                                loading="lazy" />
+                            <strong class="d-none d-sm-block ms-1">John</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item me-3 me-lg-1">
+                        <a class="nav-link" href="#">
+                            <span><i class="fas fa-plus-circle fa-lg"></i></span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown me-3 me-lg-1">
+                        <a class="nav-link dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-comments fa-lg"></i>
+
+                            <span class="badge rounded-pill badge-notification bg-danger">6</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="#">Some news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-3 me-lg-1">
+                        <a class="nav-link dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bell fa-lg"></i>
+                            <span class="badge rounded-pill badge-notification bg-danger">12</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="#">Some news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-3 me-lg-1">
+                        <a class="nav-link dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-chevron-circle-down fa-lg"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="#">Some news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Right elements -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <!-- Carousel wrapper -->
+        <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/R.c25996cf3ab729a2fa74ff503e3a9eda?rik=ItlguTCXOQ6KuQ&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2017%2f12%2fWriting-Pen-Wallpaper.jpg&ehk=c9jVJYnHHetxxSOS4NQN2Hwe3NthDrW1F8ThdolI2co%3d&risl=&pid=ImgRaw&r=0"
+                        class="d-block w-100" alt="Sunset Over the City" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.c25996cf3ab729a2fa74ff503e3a9eda?rik=ItlguTCXOQ6KuQ&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2017%2f12%2fWriting-Pen-Wallpaper.jpg&ehk=c9jVJYnHHetxxSOS4NQN2Hwe3NthDrW1F8ThdolI2co%3d&risl=&pid=ImgRaw&r=0"
+                        class="d-block w-100" alt="Canyon at Nigh" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.c25996cf3ab729a2fa74ff503e3a9eda?rik=ItlguTCXOQ6KuQ&riu=http%3a%2f%2fyesofcorsa.com%2fwp-content%2fuploads%2f2017%2f12%2fWriting-Pen-Wallpaper.jpg&ehk=c9jVJYnHHetxxSOS4NQN2Hwe3NthDrW1F8ThdolI2co%3d&risl=&pid=ImgRaw&r=0"
+                        class="d-block w-100" alt="Cliff Above a Stormy Sea" />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Inner -->
+
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+                data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+                data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Carousel wrapper -->
+    </div>
+
+    <div id="sec2" class="container">
+        <h1 class="my-5 pt-4 text-center">ABOUT US</h1>
+        <div class="row">
+            <div class="col col-12 col-md-6">
+                <h3>why us?</h3>
+                <p>We feel that when a person is unable to tell his problem to anyone, then he starts suffocating and
+                    that person is breaking inside and in such a situation, he needs that someone listen to him,
+                    understands and become his support and we think that a man's greatest companion is paper and pen .
+                    Paper and pen are with him in sorrow and also in happiness . We should put everything we say on
+                    paper and pen . Please follow this page to join us for this.</p>
+            </div>
+            <div class="col col-12 col-md-6">
+                <a class="ripple" href="#!">
+                    <img alt="example" class="img-fluid rounded"
+                        src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="sec3" class="mt-5">
+        <!-- Footer -->
+        <footer class="bg-dark text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+
+                <!-- Section: Form -->
+                <section class="">
+                    <form action="">
+                        <!--Grid row-->
+                        <div class="row d-flex justify-content-center">
+                            <!--Grid column-->
+                            <div class="col-auto">
+                                <p class="pt-2">
+                                    <strong>Sign up for our newsletter</strong>
+                                </p>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-5 col-12">
+                                <!-- Email input -->
+                                <div class="form-outline form-white mb-4">
+                                    <input type="email" id="form5Example21" class="form-control" />
+                                    <label class="form-label" for="form5Example21">Email address</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-auto">
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-outline-light mb-4">
+                                    Subscribe
+                                </button>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </form>
+                </section>
+                <!-- Section: Form -->
+
+                <!-- Section: Text -->
+                <section class="mb-4">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                        eum harum corrupti dicta, aliquam sequi voluptate quas.
+                    </p>
+                </section>
+                <!-- Section: Text -->
+
+                <!-- Section: Links -->
+                <section class="">
+                    <!--Grid row-->
+                    <div class="row">
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                            <h5 class="text-uppercase">Links</h5>
+
+                            <ul class="list-unstyled mb-0">
+                                <li>
+                                    <a href="#!" class="text-white">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="text-white">Link 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </div>
+    <!-- mdb script link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"></script>
+</body>
+
+</html>
